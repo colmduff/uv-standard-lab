@@ -1,0 +1,14 @@
+project_name:
+  type: str
+  help: "Your project name"
+  default: "my_project"
+
+author_name:
+  type: str
+  help: "Author name"
+  default: "Your Name"
+
+author_email:
+  type: str
+  help: "Author email"
+  default: "your.email@example.com"

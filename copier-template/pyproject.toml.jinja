@@ -1,0 +1,35 @@
+[project]
+name = "{{ project_slug }}"
+version = "0.1.0"
+description = "{{ description }}"
+authors = [
+    { name = "{{ author }}", email = "{{ author_email }}" }
+]
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+    # List your core runtime dependencies here, e.g.:
+    # "numpy",
+    # "pandas",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "isort",
+    "ruff",
+    "jupyter",
+    "marimo",
+]
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+line-length = 88
+
+
