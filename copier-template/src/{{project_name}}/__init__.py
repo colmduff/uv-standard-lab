@@ -1,2 +1,2 @@
-"""{{ project_name }} package."""
+"""{{project_name}} package."""
 
